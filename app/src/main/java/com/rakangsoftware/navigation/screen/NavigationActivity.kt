@@ -2,6 +2,7 @@ package com.rakangsoftware.navigation.screen
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.design.widget.BottomNavigationView
 import android.support.v4.app.NavUtils
 import android.view.Menu
 import android.view.MenuItem
@@ -19,6 +20,18 @@ class NavigationActivity : AppCompatActivity() {
             title = "A Navigation demo"
             subtitle = "Toolbar, bottom, up and drawer navigation"
         }
+
+        bottom_navigation.setOnNavigationItemReselectedListener {
+            when (it.itemId) {
+                R.id.local_bar -> nav_label.text = getString(R.string.bottom_nav_bar)
+                R.id.local_coffee -> nav_label.text = getString(R.string.bottom_nav_coffee)
+                R.id.local_florist -> nav_label.text = getString(R.string.bottom_nav_florist)
+                else -> {
+
+                }
+            }
+        }
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

@@ -5,4 +5,7 @@
     <string name="florist">Florist</string>
     <string name="toolbar_menu_bar">Toolbar bar nav pressed.</string>
     <string name="toolbar_menu_coffee">Toolbar coffee nav pressed.</string>
+    <string name="bottom_nav_bar">Bottom navigation bar</string>
+    <string name="bottom_nav_coffee">Bottom navigation coffee</string>
+    <string name="bottom_nav_florist">Bottom navigation florist</string>
 </resources>
