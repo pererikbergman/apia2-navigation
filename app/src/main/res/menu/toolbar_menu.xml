@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/local_bar"
+        android:icon="@drawable/ic_local_bar_white"
+        android:title="@string/bar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/local_coffee"
+        android:icon="@drawable/ic_local_cafe_black"
+        android:title="@string/coffee" />
+    <item
+        android:id="@+id/local_florist"
+        android:icon="@drawable/ic_local_florist_black"
+        android:title="@string/florist" />
+</menu>

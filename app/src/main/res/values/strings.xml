@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Navigation</string>
+    <string name="bar">Bar</string>
+    <string name="coffee">Coffee</string>
+    <string name="florist">Florist</string>
+    <string name="toolbar_menu_bar">Toolbar bar nav pressed.</string>
+    <string name="toolbar_menu_coffee">Toolbar coffee nav pressed.</string>
 </resources>
