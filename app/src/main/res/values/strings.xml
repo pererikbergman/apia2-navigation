@@ -8,4 +8,9 @@
     <string name="bottom_nav_bar">Bottom navigation bar</string>
     <string name="bottom_nav_coffee">Bottom navigation coffee</string>
     <string name="bottom_nav_florist">Bottom navigation florist</string>
+    <string name="drawer_nav_bar">Drawer navigation bar</string>
+    <string name="drawer_nav_coffee">Drawer navigation coffee</string>
+    <string name="drawer_nav_florist">Drawer navigation florist</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
 </resources>
